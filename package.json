@@ -1,0 +1,52 @@
+{
+  "_from": "git+https://github.com/longlongago2/react-native-activemq.git",
+  "_id": "react-native-activemq@1.0.0",
+  "_inBundle": false,
+  "_location": "/react-native-activemq",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/longlongago2/react-native-activemq.git",
+    "rawSpec": "https://github.com/longlongago2/react-native-activemq.git",
+    "saveSpec": "git+https://github.com/longlongago2/react-native-activemq.git",
+    "fetchSpec": "https://github.com/longlongago2/react-native-activemq.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/longlongago2/react-native-activemq.git#5644b4331d1cde2860bdec15eb8fd96f173145bd",
+  "_spec": "https://github.com/longlongago2/react-native-activemq.git",
+  "_where": "D:\\mywork\\JS_Code\\Git\\CFSoftwar_test",
+  "author": {
+    "name": "zhanggl"
+  },
+  "bugs": {
+    "url": "https://github.com/longlongago2/react-native-activemq/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "react-native": "^0.50.3"
+  },
+  "deprecated": false,
+  "description": "react-native,activemq,android,ios",
+  "homepage": "https://github.com/longlongago2/react-native-activemq#readme",
+  "keywords": [
+    "react-naitve",
+    "activemq",
+    "android",
+    "ios"
+  ],
+  "license": "ISC",
+  "main": "activemq.js",
+  "name": "react-native-activemq",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longlongago2/react-native-activemq.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
