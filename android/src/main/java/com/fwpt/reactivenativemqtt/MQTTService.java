@@ -104,7 +104,7 @@ public class MQTTService {
 				mqttClient.disconnect(0);
 				// 通知前端
 				WritableMap event = Arguments.createMap();
-				event.putString("message", '{"context":"已与消息服务器断开","sender":"activeMQ"}');
+				event.putString("message", "{\"context\":\"已与消息服务器断开\",\"sender\":\"activeMQ\"}");
 				PushCallback.sendEvent(myContext, "MqttMsg", event);
 			}
 		} catch (MqttException e) {
