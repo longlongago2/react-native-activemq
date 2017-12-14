@@ -85,8 +85,8 @@ public class MQTTService {
 				mqttClient.subscribe(topic1, Qos);
 				// 通知前端
 				WritableMap event = Arguments.createMap();
-				event.putString("message", '{"context": "已链接上消息服务器，监听主题：'
-						+ this.topic + '","sender":"activeMQ"}');
+				event.putString("message", "{\"context\": \"已链接上消息服务器，监听主题："
+						+ this.topic + "\",\"sender\":\"activeMQ\"}");
 				PushCallback.sendEvent(myContext, "MqttMsg", event);
 			} else {
 				mqttClient = null;
