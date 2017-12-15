@@ -113,4 +113,8 @@ public class MQTTService {
 			e.printStackTrace();
 		}
 	}
+
+	public static Boolean checkConnected() {
+        return mqttClient.isConnected();
+    }
 }
