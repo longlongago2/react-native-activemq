@@ -115,6 +115,6 @@ public class MQTTService {
 	}
 
 	public static Boolean checkConnected() {
-        return mqttClient.isConnected();
+        return mqttClient == null ? false : mqttClient.isConnected();
     }
 }

@@ -5,6 +5,7 @@ import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.uimanager.IllegalViewOperationException;
+import com.facebook.react.bridge.Callback;
 
 public class MqttServiceModule extends ReactContextBaseJavaModule {
 
@@ -31,8 +32,8 @@ public class MqttServiceModule extends ReactContextBaseJavaModule {
      }
 
      @ReactMethod
-    public Boolean checkConnected() {
-        return MQTTService.checkConnected();
-    }
+     public void checkConnected(Callback successCallback) {
+        successCallback.invoke(MQTTService.checkConnected());
+     }
 
 }
