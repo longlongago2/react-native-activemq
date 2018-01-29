@@ -1,6 +1,6 @@
 {
   "name": "react-native-activemq",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "react-native,activemq,android,ios",
   "main": "activemq.js",
   "scripts": {

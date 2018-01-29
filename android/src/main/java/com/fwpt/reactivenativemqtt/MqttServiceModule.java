@@ -22,12 +22,12 @@ public class MqttServiceModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void connectAndReserve(String topicNames,String userId) {
-        new MQTTService(myContext,topicNames,userId).onStart();
+    public void connect(String topicNames, String userId) {
+        MQTTService.onStart(myContext, topicNames, userId);
     }
 
      @ReactMethod
-     public void breakConnect(){
+     public void disconnect(){
         MQTTService.onDestroy();
      }
 

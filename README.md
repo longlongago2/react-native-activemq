@@ -7,15 +7,7 @@
 `import { ActiveMQ } from 'react-native-activemq'`
 
 **连接服务**
-`
-const connectConfig = {
-    ip: string,
-};
-`
-`ActiveMQ.connect(connectConfig:object);`
+`ActiveMQ.connect( topicName : string, userid : string);`
 
 **关闭服务**
-`ActiveMQ.close();`
-
-**订阅服务**
-`ActiveMQ.subscribe();`
+`ActiveMQ.disconnect();`
